@@ -7,31 +7,23 @@
 </head> 
 
 <style>
-div.fixed {
-  position: fixed;
-  right: 0;
-  width: 300px;
-}
-</style>
-
-<style>
-div.relative {
+p.a {
   position: relative;
   left: 0;
-  width: 300px;
 }
-</style>
 
-<style>
-div.center{
-  position: absolute;
+p.b {
+  position: relative;
+  text-align: right;
+}
+
+p.c {
+  position: relative;
   text-align: center;
-  width: 300px;
 }
-</style>
 
-<style>
-div {
+p.d {
+  position: relative;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -43,28 +35,22 @@ div {
 Pirmā rindkopa
 </p>
 
-<p>
-	<div class="relative">
+<p class="a">
 Pa kreisi
-
-	</div>
 </p>
 
-<p>
-	<div class="fixed">
+<p class="b">
 Pa labi
-
-	</div>
 </p>
 
-<p><div class="center">
+<p class="c">
 Pa vidu
 
-</div></p>
+</p>
 
-<p><div>
+<p class="d">
 Izlīdzināts pēc abām malām (justify). Izlīdzināts pēc abām malām (justify). Izlīdzināts pēc abām malām (justify). Izlīdzināts pēc abām malām (justify). Izlīdzināts pēc abām malām (justify).
-</div></p>
+</p>
 
 </body>
 </html>
