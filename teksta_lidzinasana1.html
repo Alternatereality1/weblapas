@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Teksta līdzināšana 1</title>
+    <meta chartset="UTF-8">
+</head> 
+
+<style>
+div.fixed {
+  position: fixed;
+  right: 0;
+  width: 300px;
+}
+</style>
+
+<style>
+div.relative {
+  position: relative;
+  left: 0;
+  width: 300px;
+}
+</style>
+
+<style>
+div.center{
+  position: absolute;
+  text-align: center;
+  width: 300px;
+}
+</style>
+
+<style>
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
+
+<body>
+
+<p>
+Pirmā rindkopa
+</p>
+
+<p>
+	<div class="relative">
+Pa kreisi
+
+	</div>
+</p>
+
+<p>
+	<div class="fixed">
+Pa labi
+
+	</div>
+</p>
+
+<p><div class="center">
+Pa vidu
+
+</div></p>
+
+<p><div>
+Izlīdzināts pēc abām malām (justify). Izlīdzināts pēc abām malām (justify). Izlīdzināts pēc abām malām (justify). Izlīdzināts pēc abām malām (justify). Izlīdzināts pēc abām malām (justify).
+</div></p>
+
+</body>
+</html>
